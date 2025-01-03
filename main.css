@@ -80,6 +80,29 @@
     right: 40px;
 }
 
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    background: var(--white50p);
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--main-color);
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 10px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 30px;
+}
+
 .sec-title {
     font-weight: 700;
     font-size: 34px;
